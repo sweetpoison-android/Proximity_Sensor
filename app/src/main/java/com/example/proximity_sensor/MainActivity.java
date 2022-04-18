@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         {
             tv.setText("Proximity sensor not available");
             isproximitysensoravailable= false;
+            Toast.makeText(this, "Proximity sensor not available", Toast.LENGTH_SHORT).show();
         }
     }
 
